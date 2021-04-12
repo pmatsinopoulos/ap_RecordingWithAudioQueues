@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E5292B8626221294001D17FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5292B8526221294001D17FA /* main.m */; };
+		E5292B8E262218DC001D17FA /* UtilityFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = E5292B8D262218DC001D17FA /* UtilityFunctions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		E5292B8226221294001D17FA /* RecordingWithAudioQueues */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RecordingWithAudioQueues; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5292B8526221294001D17FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5292B8D262218DC001D17FA /* UtilityFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilityFunctions.m; sourceTree = "<group>"; };
+		E5292B9026221908001D17FA /* UtilityFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilityFunctions.h; sourceTree = "<group>"; };
+		E5292B9226221E1F001D17FA /* UserInfoStruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoStruct.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				E5292B8526221294001D17FA /* main.m */,
+				E5292B8D262218DC001D17FA /* UtilityFunctions.m */,
+				E5292B9026221908001D17FA /* UtilityFunctions.h */,
+				E5292B9226221E1F001D17FA /* UserInfoStruct.h */,
 			);
 			path = RecordingWithAudioQueues;
 			sourceTree = "<group>";
@@ -118,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5292B8E262218DC001D17FA /* UtilityFunctions.m in Sources */,
 				E5292B8626221294001D17FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
